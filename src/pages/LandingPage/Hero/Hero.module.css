@@ -1,11 +1,10 @@
 .section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 70vh;
-}
-
-.container {
-    display: flex;
+    height: fit-content;
+    padding-top: 5rem;
+    gap: 5rem;
 }
 
 .mainText {
@@ -13,5 +12,34 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    max-width: 40rem;
+}
 
+.mainContent {
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 5rem;
+   
+}
+
+.previewContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    & > iframe {
+        width: 100%;
+        height: 35rem;
+        object-fit: contain;
+        border-radius: 1rem;
+        border: black 1px solid;
+        box-shadow: 
+        10px 10px white
+        ;
+    }
 }
