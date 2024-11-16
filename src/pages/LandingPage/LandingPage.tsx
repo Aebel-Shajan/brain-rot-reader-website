@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar"
 import Hero from "./Hero/Hero"
+import Pricing from "./Pricing/Pricing"
 import UseCases from "./UseCases/UseCases"
 
 function LandingPage() {
@@ -8,6 +9,7 @@ function LandingPage() {
       <Navbar />
       <Hero />
       <UseCases />
+      <Pricing />
     </div>
   )
 }

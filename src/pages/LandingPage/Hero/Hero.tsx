@@ -17,7 +17,7 @@ function Hero() {
 						This extension turns everything into easy to watch subway surfer gameplay.
 					</p>
 					<button 	
-						className={styles.button85}
+						className={commonStyles.button85}
 						onClick={redirect("https://chromewebstore.google.com/detail/subway-surfers-screen-rea/jcijfneifjnhbgahlokgkmpcnocgpegd")}>
 						Install the extension
 					</button>
