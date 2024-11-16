@@ -38,7 +38,7 @@
     gap: 1rem;
 }
 
-@media (width <= 700px) {
+@media (width <= 850px) {
     .buttonContainer {
         display: none;
     }

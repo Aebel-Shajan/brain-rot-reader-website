@@ -9,6 +9,8 @@
     display: flex;
     padding: 2rem;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .comparison {
