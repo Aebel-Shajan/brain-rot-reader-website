@@ -3,6 +3,10 @@ import ReviewCarousel from "../../../components/ReviewCarousel/ReviewCarousel"
 import styles from "./Hero.module.css"
 
 function Hero() {
+	function redirect(url: string) {
+		return () => window.open(url)
+	  }
+	
 	return (
 		<div className={[commonStyles.section, styles.section].join(" ")}>
 			<div className={styles.mainContent}>
@@ -12,7 +16,9 @@ function Hero() {
 						Browsing the web is boring, i would much rather go on tiktok or yt shorts.
 						This extension turns everything into easy to watch subway surfer gameplay.
 					</p>
-					<button>
+					<button 	
+						className={styles.button85}
+						onClick={redirect("https://chromewebstore.google.com/detail/subway-surfers-screen-rea/jcijfneifjnhbgahlokgkmpcnocgpegd")}>
 						Install the extension
 					</button>
 				</div>

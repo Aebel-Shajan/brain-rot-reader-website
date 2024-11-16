@@ -18,3 +18,11 @@ button {
     border-radius: 9999px;
     padding: 0.25rem 1rem;
 }
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px white;
+    
+}
