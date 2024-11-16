@@ -1,0 +1,17 @@
+.section {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.container {
+    display: flex;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
