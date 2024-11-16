@@ -8,7 +8,7 @@ const Navbar = () => {
     <h1 className={commonStyles.fancyFont}>
       Brain Rot Reader
     </h1>
-    <div>
+    <div className={styles.buttonContainer}>
       <button>
         Home
       </button>
