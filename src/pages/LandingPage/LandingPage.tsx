@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 import Hero from "./Hero/Hero"
 import Pricing from "./Pricing/Pricing"
@@ -10,6 +11,7 @@ function LandingPage() {
       <Hero />
       <UseCases />
       <Pricing />
+      <Footer />
     </div>
   )
 }
