@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Brain rot reader website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I made this website for my chrome extension : brain rot reader.
 
-Currently, two official plugins are available:
+Landing page with product preview, review carousel & pricing section.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Preview:
+![preview](docs/assets/website-preview.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Setup Instructions
+To set up and run this React Vite TypeScript application, follow these steps:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+0. **Prerequisites**
+Before you begin, ensure you have met the following requirements:
+- You have installed [Node.js](https://nodejs.org/) (which includes npm).
+- You have access to a terminal
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/your-username/brain-rot-reader-website.git
+  cd brain-rot-reader-website
+  ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. **Install dependencies:**
+  ```bash
+  npm install
+  ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. **Run the development server:**
+  ```bash
+  npm run dev
+  ```
+
+4. **Build the project:**
+  ```bash
+  npm run build
+  ```
