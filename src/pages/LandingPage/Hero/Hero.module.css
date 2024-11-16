@@ -64,7 +64,7 @@
 .button85:before {
     content: "";
     background: linear-gradient(45deg,
-            white, black, yellow, black, white);
+            white, black, #FBD355, black, white);
     position: absolute;
     top: -2px;
     left: -2px;
