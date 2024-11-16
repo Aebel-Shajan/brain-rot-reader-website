@@ -8,6 +8,7 @@
     position: sticky;
     border-bottom: solid 1px grey;
     background-color: #FBD355;
+    z-index: 9999;
 }
 
 .branding {
@@ -20,6 +21,12 @@
     & > img {
         height: 100%;
     }
+    cursor: pointer;
+}
+
+.branding:hover {
+    cursor: pointer;
+    background-color: white;
 }
 
 .buttonContainer {
@@ -27,11 +34,30 @@
     flex-wrap: nowrap;
     height: 100%;
     display: flex;
-    padding: 0.4rem 0;
+    padding: 0.4rem 1rem;
+    gap: 1rem;
 }
 
 @media (width <= 700px) {
     .buttonContainer {
         display: none;
     }
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 9999px;
+    padding: 0.25rem 1rem;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px white;
 }

@@ -12,20 +12,6 @@
     /* text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black */
 }
 
-button:not(.button85) {
-    background-color: white;
-    border: solid 1px black;
-    border-radius: 9999px;
-    padding: 0.25rem 1rem;
-}
-
-button:hover:not(.button85) {
-    cursor: pointer;
-    color: white;
-    background-color: black;
-    box-shadow: 5px 5px white;
-}
-
 .button85 {
     padding: 0.6em 2em;
     border: none;

@@ -8,7 +8,9 @@ function Hero() {
 	  }
 	
 	return (
-		<div className={[commonStyles.section, styles.section].join(" ")}>
+		<div 
+		id="home"
+		className={[commonStyles.section, styles.section].join(" ")}>
 			<div className={styles.mainContent}>
 				<div className={styles.mainText}>
 					<h1>Real time brain rot directly from the browser. 🚀 </h1>

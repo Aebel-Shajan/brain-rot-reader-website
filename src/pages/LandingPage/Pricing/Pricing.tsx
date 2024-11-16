@@ -2,8 +2,13 @@ import styles from "./Pricing.module.css"
 import commonStyles from "../../../common.module.css"
 
 const Pricing = () => {
+  function redirect(url: string) {
+		return () => window.open(url)
+	  }
   return (
-    <div className={[commonStyles.section, styles.section].join(" ")}>
+    <div 
+    id="pricing"
+    className={[commonStyles.section, styles.section].join(" ")}>
       <h1>Still not convinced? </h1>
       <div className={styles.comparisonContainer}>
         <div className={styles.comparison}>
@@ -50,7 +55,9 @@ const Pricing = () => {
             </li>
           </ul>
           <div className={styles.buttonContainer}>
-          <button className={commonStyles.button85}>
+          <button 
+            className={commonStyles.button85}
+            onClick={redirect("https://chromewebstore.google.com/detail/subway-surfers-screen-rea/jcijfneifjnhbgahlokgkmpcnocgpegd")}>
             Install Now
           </button>
           </div>

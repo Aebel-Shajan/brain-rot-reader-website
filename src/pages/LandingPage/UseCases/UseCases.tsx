@@ -6,7 +6,9 @@ import preview3 from "../../../assets/screenshots/preview_3.png"
 import styles from "./UseCases.module.css"
 const UseCases = () => {
   return (
-    <div className={commonStyles.section}>
+    <div 
+    id="features"
+    className={commonStyles.section}>
       <div className={styles.leftUseCase}>
         <div>
           <h1>

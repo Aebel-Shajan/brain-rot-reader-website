@@ -12,3 +12,7 @@ body {
   background: fixed;
   background: linear-gradient(0.25turn, #FBD355, #FFE168, #FBD355);
 }
+
+html {
+  scroll-behavior: smooth;
+}
