@@ -42,6 +42,10 @@
     .buttonContainer {
         display: none;
     }
+    .navbar {
+        justify-content: center;
+        padding: 0;
+    }
 }
 
 a {
